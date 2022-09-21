@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import "./style.css";
 
 function App(){
-  const[text,setText] = useState('')
+  const[text,setText] = useState('Enter text to here')
   const handleChange = (e) => {
 
     setText(e.target.value);
