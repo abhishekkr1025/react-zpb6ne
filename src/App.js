@@ -25,6 +25,7 @@ return(
 <button onClick = {handleUpClick}>To UpperCase</button><br/><br/>
 <button onClick = {handleLoClick}>To LowerCase</button>
 </div>
+
 );
 }
 
